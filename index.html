@@ -1,0 +1,508 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Dario's Website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo" position = "relative">
+							<img class="image" src="images/Imperial_old_logo.png" />
+							<!-- <span class="icon fa-gem"></span>     height="60px" width="auto" position="absolute" top="10px" right="10px"-->
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>Dario Bolli</h1>
+								<p>Visiting Student at <a href="https://www.imperial.ac.uk/">Imperial College London</a> and MSc Student at <a href="https://ethz.ch/en.html">ETH Zurich</a>.</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#aboutme">About me</a></li>
+								<li><a href="#education">Education</a></li>
+								<li><a href="#projects">Projects</a></li>
+								<li><a href="#contact">Contact</a></li>
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- About me -->
+							<article id="aboutme">
+								<h2 class="major">About me</h2>
+								<span class="image me"><img src="images/CSC_1789_carré.jpg"  alt="" /></span>
+								<p>Welcome to my personal Website! 
+								My name is Dario, I am a final-year MSc student in the Department of Information Technology and Electrical Engineering  at ETH Zurich. 
+								I am passionate about understanding our brain, and using this knowledge to improve artificial intelligence (AI). To this end, I am currently doing research for my master thesis in the department of Bioengineering at Imperial College London under the supervision 
+								of <a href="https://www.imperial.ac.uk/people/a.faisal"> Prof. Aldo Faisal </a> toward understanding and deriving computational models of the different motor-learning mechanisms. If you want to know more about me and my work, feel free to contact me or browse the other sections of this website.
+								You can also have a look at my <a href="documents/CV_Dario_Bolli.pdf">CV</a> (last update 09/2022).</p>
+							</article>
+
+						<!-- Education -->
+							<article class="education" id="education">
+								<h2 class="major" style="color:black">Education</h2>
+								<a href="https://www.imperial.ac.uk/"><span class="image education"><img src="images/Logo_ICL.jpg" alt=""/></span></a>
+								<p style="color:black">Semester project and Master thesis at <a href="https://www.imperial.ac.uk/">Imperial College London</a> at the <a href="https://faisallab.org/">the Brain and Behaviour lab</a></p>
+								<a href="https://research.ibm.com/"><span class="image education"><img src="images/Logo_IBM.png" alt=""/></span></a>
+								<p style="color:black">Semester Project at <a href="https://research.ibm.com/"> IBM Research </a> at <a href="https://www.zurich.ibm.com/sto/memory/" style="color: black">the in-Memory computing lab</a></p>
+								<a href="https://ethz.ch/en.html"><span class="image education"><img src="images/Logo_ETH.jpg" alt=""/></span></a>
+								<p style="color:black">Master in <a href="https://ee.ethz.ch/">Information Technology and Electrical Engineering</a> at <a href="https://ethz.ch/en.html">ETH Zurich</a>. Specialized in Machine Learning and Neuroinformatics</p>
+								<a href="https://www.epfl.ch/en/"><span class="image education"><img src="images/Logo_EPFL.png" alt=""/></span></a>
+								<p style="color:black">Bachelor in <a href="https://www.epfl.ch/education/bachelor/programs/electrical-and-electronic-engineering/">Electrical and Electronic Engineering</a> at <a href="https://www.epfl.ch/en/">EPFL</a></p>
+								</article>
+
+						<!-- Projects -->
+							<article id="projects">
+								<h2 class="major">Projects</h2>
+								
+								<li><h3> Computational model of Motor-Learning </h3><a href="#Motor-Learning">
+								<span class="image main"><img src="images/brain.jpg"  alt="" /></span>
+								<p>Modelling the learning mechanisms of a Real-world Motor-learning Adaptation task.</p>
+								<p>Ongoing, Imperial College London</p>
+								</a></li>
+
+								<li>
+									<h3> Training and Inference in Superposition </h3>
+									<a href="#Training-Superposition">
+									<span class="image main"><img src="images/Logo_IBM.png" alt="" /></span>	
+									<p>To address the intensive need of computational ressources in Machine learning, we explored the idea of superposition of the Data.
+									</p>
+									<p> Spring 2022, IBM Research Europe </p>
+									</a></li>
+								
+								<li>
+									<h3> Deep Hedging </h3>
+									<a href="#Deep-Hedging">
+									<span class="image main"><img src="images/Deep_Hedging.png" alt="" /></span>
+									<p>Deep hedging aims at modeling the trading decisions in the hedging strategies as neural networks. We investigated replacing a simple Neural Network by State of the Art Deep Learning models. </p>
+									<p> Autumn 2021, ETH Zurich </p>
+									</a></li>
+
+								<li>
+									<h3> Deep Learning for Autonomous Driving project </h3>
+									<a href="#DLAD">
+									<span class="image main"><img src="images/DLAD.png" alt="" /></span>
+									<p>Multi-task learning for semantics segmentation and depth estimation, 3D Object Detection from Lidar Point Clouds</p>
+									<p> Spring 2021, ETH Zurich </p>
+									</a></li>
+							</article>
+							<!--Motor-Learning Project-->
+								<article id="Motor-Learning">
+									<h2 class="major">Computational model of Motor-Learning</h2>
+									<p>Data were collected on people learning to adapt to a visuomotor rotation in the context of a real-world billiard task. The manipulation of the visual feedback was made possible through the use of embodied virtual reality environment.
+										The analysis of the human behaviour to perturbation revealed two distinct groups relying primarily on either reward-based feedback or error-based feedback to learn to adapt to the perturbation.
+										My current work involves the derivation of computational models of the reward-based and error-based mechanisms.
+										The purpose of our work aims at using this model to understand and manipulate the visual feedback given to a patient to enhance rehabilitation in a non-invasive way.
+										</p>
+								</article>
+							
+							<!--Training and Inference in Superposition Project-->
+							<article id="Training-Superposition">
+								<h2 class="major">Training in Superposition</h2>
+								<h3>Description</h3>
+								<p>To address the always greedier need of Deep Neural Networks for computational resources,
+									we investigate training and inference in superposition.
+									Exploiting the properties of Hyper-Dimensional Computing, our concept seeks to reduce
+									computation by superposing multiple data examples in a single compressed representation,
+									hence processing the examples simultaneously in the Network.</p>
+
+								<p>We validate the proposed method on image classification on the CIFAR-100 Dataset,
+									using ResNet-12 as a base Classification Network.
+									We first investigate the impact of binding and unbinding operations on the input and
+									output of the ResNet-12. Next, we add a bundling operation to combine the inputs
+									before processing them through the Classification Network.</p> 
+
+								<p>Our Results show that the Hyper-Dimensional Computing method does not allow to
+									process multiple images together. Therefore, we modify the initial architecture, and test
+									several data-driven methods derived from this hypothesis.</p>
+
+								<p>We also provide an analysis of the image classification accuracy relative to the number
+									of computational operations saved by means of processing data in superposition.
+									Our best architecture allows to divide by two the number of Multiply-Accumulate operations
+									with a roughly 4.5% reduction in the image classification accuracy when compared
+									with the original ResNet.</p>
+
+            					<p style="font-size: 11px">Both the code and the report are confidential.</p>
+							</article>
+
+							<!--Deep Hedging Project-->
+							<article id="Deep-Hedging">
+								<h2 class="major">Deep-Hedging</h2>
+								<h3>Description</h3>
+								<p>Hedging is a risk management strategy employed to balance losses in investments by taking an opposite position in a
+									related asset. Mathematical finance provides a tractable solution to hedging in a frictionless and "complete market"
+									models with risk-neutral pricing and hedging.
+									However, trading is subject to transaction costs, permanent market impact, and liquidity constraints in real markets,
+									something not modelled by classical mathematical finance models.</p>
+
+								<p>Deep hedging aims at modeling the trading decisions in the hedging strategies as neural networks. It provides a model-free and efficient solution, enabling us to consider alternative factors
+            					such as market frictions. Deep Hedging models' feature sets consist of hedging instruments' prices and can contain additional information such as trading signals, news analytics, or past hedging decisions.
+            					We investigated replacing a simple Neural Network by State of the Art Deep Learning Models.</p> 
+            					<p style="font-size: 11px">If you want to see more, you can have a look at <a href="documents/Deep_Hedging.pdf">the report</a>, and <a href="https://github.com/dario-bolli/deep-hedging">the code</a></p>
+							</article>
+
+							<!--Deep Learning for Autonomous Driving Project-->
+							<article id="DLAD">
+								<h2 class="major"> Autonomous Driving </h2>
+								<h4>Description</h4>
+								<p>The goal was to do Multi-task learning for semantics and depth estimation on images gathered by 2 cameras mounted on a car, and 3D Object Detection from a Point Cloud gathered by a Lidar, also mounted on the car.
+									The project was split in the 3 following parts:</p>
+									
+								<ol>
+									<li>
+									<h5>Understanding Multimodal Driving Data</h5>
+									<p>That is, creating the visualisation tools for the 3D object detection and point cloud semantic segmentation given a LiDAR point cloud, corresponding RGB camera image, ground truth semantic labels and network bounding box predictions.
+									  And processing the Lidar point Cloud, to be able to identify each laser ID from the point cloud directly, and account for the distortion caused by the vehicle motion with the aid of GPS/IMU data.</p>
+									<p style="font-size: 11px">If you want to see more, you can have a look at <a href="documents/DLAD_Task1.pdf" >the task</a>, <a href="documents/DLAD_Report1.pdf">the report</a>, and <a href="https://github.com/dario-bolli/Project_1_DLAD">the code</a></p>
+								  	</li>
+
+									<li>
+								  	<h5>Multi-task learning for semantics and depth</h5>
+									<p>The two main tasks in this part are the semantic segmentation (i.e., the task of associating each pixel of an image with a class label, e.g., person, road, car, etc.) and the monocular depth
+										estimation (i.e., the task of estimating the per-pixel depth of a scene from a single image). 
+										We worked on the Miniscape dataset.
+										The idea is to train those tasks jointly using Convolutional Neural Networks(CNNs), as the learning of one of the task can be beneficial to solve the other task.
+										We derive an optimal joint architecture based on a shared, separate Atrous Spatial Pyramid Pooling (ASPP) and separate Decoders to solve both tasks.</p>
+									<p style="font-size: 11px">If you want to see more, you can have a look at <a href="documents/DLAD_Task2.pdf" >the task</a>, <a href="documents/DLAD_Report2.pdf">the report</a>, and <a href="https://github.com/dario-bolli/Project_2_DLAD">the code</a></p>
+									</li>
+								
+									<li>
+									<h5>3D Object Detection from Lidar Point Clouds</h5>
+									<p>In the last part, we build a 2-stage 3D object detector to detect vehicles in autonomous driving scenes. Our object-detector draws 3D bounding boxes around each vehicle.
+										The First stage, which is often referred to as the Region Proposal Network (RPN), is used to create coarse detection results from the irregular point cloud data.
+										These initial detections are later refined in the second stage network to generate the final predictions. 
+										The idea behind such a 2-stage design is to process the entire point cloud in the first stage and to generate regions-of-interest (ROI), i.e. smaller pools of information at and around
+										likely objects which later can be refined individually to form the final detection.
+										In this project, the first stage was prebuilt and pretrained to save time. Therefore, we worked on the
+										initial predictions (i.e. the results of the first stage RPN alongside the extracted features and point cloud data). </p>
+									   
+									<p style="font-size: 11px">If you want to see more, you can have a look at <a href="documents/DLAD_Task3.pdf" >the task</a>, <a href="documents/DLAD_Report3.pdf">the report</a>, and <a href="https://github.com/dario-bolli/Project_3_DLAD">the code</a></p>
+									</li>
+								</ol>
+							</article>
+							
+						<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">Contact</h2>
+								<!--<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="4"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>-->
+
+								<ul class="icons">
+									<li><a href="mailto:dbolli@ethz.ch" class="fa fa-envelope"> </a></li> <span class="label">Mail</span>
+								</ul>
+								<ul class="icons">
+									<li><a href="https://www.linkedin.com/in/dario-bolli/" class="icon brands fa-linkedin"></a> </li> <span class="label">Linkedin</span>
+								</ul>
+								<ul class="icons">
+									<li><a href="documents/CV_Dario_Bolli.pdf" class="fa fa-file"></a></li><span class="label">Curriculum Vitae</span>
+								</ul>
+								<ul class="icons">
+									<li><a href="https://github.com/dario-bolli/" class="icon brands fa-github"></a></li><span class="label">GitHub</span>
+								</ul>
+								
+								<footer class="mastfoot mt-auto">
+									<div class="inner">
+									  <p style="font-size: 12px">You can find the code of my projects on github, check out my Linkedin profile or download my CV if you wish to learn more about my experiences.
+										Do not hesitate to reach out by mail for any inquiries.</p>
+									</div>
+								  </footer>
+							</article>
+
+						<!-- Example Elements -->
+							<article id="elements">
+								<h2 class="major">Elements</h2>
+
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field half">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field">
+												<label for="demo-category">Category</label>
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Dario Bolli, adapted from: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
