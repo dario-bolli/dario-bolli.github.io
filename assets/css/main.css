@@ -710,8 +710,8 @@ input, select, textarea {
 			margin: 2.5rem 0;
 			width: 300px;
 			position: relative;
-			top: 5px;
-			left: 125px;
+			top: 0.3rem;
+			left: 7.8rem;
 		}
 			.image.me img{
 				width: 300px;
@@ -1314,8 +1314,6 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			display: flex;
-            justify-content: center;
 			position: relative;
 			width: 5.5rem;
 			height: 5.5rem;
@@ -1330,8 +1328,8 @@ input, select, textarea {
 				height: 60px;
 				width: auto;
 				position: absolute;
-				top: 15px;
-				left: 15px;
+				left:1rem; 
+				top:1rem; 
 			}
 			#header .logo .icon:before {
 				font-size: 2rem;
