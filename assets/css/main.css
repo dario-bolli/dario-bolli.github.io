@@ -1314,6 +1314,8 @@ input, select, textarea {
 			}
 
 		#header .logo {
+			display: flex;
+            justify-content: center;
 			position: relative;
 			width: 5.5rem;
 			height: 5.5rem;
