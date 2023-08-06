@@ -703,29 +703,27 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
+		
 
 		.image.me{
-			display: flex;
-            justify-content: center;
+			display: block;
 			margin: 2.5rem 0;
-			width: 300px;
-			position: relative;
-			top: 0.3rem;
-			left: 7.8rem;
+			width: 70%;
+			margin-left:5rem;
 		}
 			.image.me img{
-				width: 300px;
+				width: 100%;
 			}
 		
 		.image.education{
 				display: block;
-				width: 150px;
+				width: 30%;
 				float: left;
-				margin-right: 50px;
+				margin-right: 3rem;
 				color: black;
 			}
 				.image.education img{
-					width: 150px;
+					width: 100%;
 				}
 		@media screen and (max-width: 736px) {
 
@@ -1314,7 +1312,6 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			position: relative;
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
@@ -1322,14 +1319,9 @@ input, select, textarea {
 			border: solid 1px #ffffff;
 			border-radius: 100%;
 		}
-			#header .logo .image {
-				display: flex;
-            	justify-content: center;
-				height: 60px;
-				width: auto;
-				position: absolute;
-				left:1rem; 
-				top:1rem; 
+		
+			#header .logo.image{
+				height: auto;
 			}
 			#header .logo .icon:before {
 				font-size: 2rem;
