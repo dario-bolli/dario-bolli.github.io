@@ -653,7 +653,7 @@ input, select, textarea {
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.5;
+			opacity: 0.22;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -704,11 +704,15 @@ input, select, textarea {
 				width: 100%;
 			}
 		
-
+		.image.log{
+			margin-top:15%;
+			width: 75%;
+		}
 		.image.me{
 			display: block;
-			margin: 2.5rem 0;
+			margin: 2% 0%;
 			width: 70%;
+			margin-left:15%;
 		}
 			.image.me img{
 				width: 100%;
@@ -1319,9 +1323,7 @@ input, select, textarea {
 			border-radius: 100%;
 		}
 		
-			#header .logo.image{
-				height: auto;
-			}
+			
 			#header .logo .icon:before {
 				font-size: 2rem;
 			}
@@ -1577,7 +1579,7 @@ input, select, textarea {
 			opacity: 0;
 		}
 			#main article.education{
-				background-color: rgba(227, 227, 227, 0.79);
+				background-color: rgba(227, 227, 227, 1);
 			}
 
 			#main article.active {
