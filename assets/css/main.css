@@ -714,14 +714,14 @@ input, select, textarea {
 				width: 100%;
 			}
 		
-		.image.Formation{
+		.image.Education{
 				display: block;
 				width: 30%;
 				float: left;
 				margin-right: 3rem;
 				color: black;
 			}
-				.image.Formation img{
+				.image.Education img{
 					width: 100%;
 				}
 		@media screen and (max-width: 736px) {
@@ -1577,7 +1577,7 @@ input, select, textarea {
 			border-radius: 4px;
 			opacity: 0;
 		}
-			#main article.Formation{
+			#main article.Education{
 				background-color: rgba(227, 227, 227, 1);
 			}
 
